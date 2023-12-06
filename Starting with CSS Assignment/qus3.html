@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .FirstName {
+           background-color: red;
+        }
+        .LastName{
+             background-color: rgba(0, 0, 255, 0.27);
+        }
+        .Email{
+          background-color: yellow;
+        }
+        .Password{
+            background-color: rgba(0, 128, 0, 0.278);
+        }
+        .Current-Password{
+            background-color: pink;
+        }
+        .btn{
+            color: orange;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <label  for="FirstName"
+          >FirstName:
+          <input class="FirstName"
+            type="text"
+            name="FirstName"
+            placeholder="Nishant"
+            id="FirstName"
+            required
+            minlength="3"
+            max="20"
+          />
+        </label>
+        <br />
+        <label for="LastName"
+          >LastName:
+          <input class="LastName"
+            type="text"
+            name="FirstName"
+            placeholder="Dangre"
+            id="LastName"
+            required
+            minlength="3"
+            max="20"
+          />
+        </label>
+        <br />
+        <label for="Email"
+          >Email:
+          <input class="Email"
+            type="text"
+            name="Email"
+            placeholder="nish@gmail.com"
+            id="LastName"
+            required
+            minlength="10"
+            max="50"
+          />
+        </label>
+        <br />
+        <label for="Password"
+          >Password:
+          <input class="Password"
+            type="text"
+            name="Password"
+            placeholder="123456789"
+            id="Password"
+            required
+            minlength="8"
+            max="20"
+          />
+        </label>
+        <br />
+        <label for="Current-Password"
+          >Current Password:
+          <input class="Current-Password"
+            type="text"
+            name="Current-Password"
+            placeholder="123456789"
+            id="Current-Password"
+            required
+            minlength="8"
+            max="20"
+          />
+        </label>
+        <br>
+
+        <button class="btn"> SUBMIT </button>
+
+
+    
+    
+</body>
+</html>
